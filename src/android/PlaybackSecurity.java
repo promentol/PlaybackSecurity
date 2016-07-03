@@ -3,7 +3,7 @@ import org.apache.cordova.*;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class CordovaApp extends CordovaActivity
+public class PlaybackSecurity extends CordovaActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
