@@ -15,7 +15,10 @@
         <param name="android-package" value="com.example.plugin.PlaybackSecurity"/>
       </feature>
     </config-file>
-
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+      <!-- <uses-feature android:name="android.hardware.gamepad" android:required="false"/> -->
+    </config-file>
     <source-file src="src/android/PlaybackSecurity.java" target-dir="src/com/promentol/PlaybackSecurity/"/>
   </platform>
 
